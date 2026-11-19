@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> ONLINE EXAMINATION</title>
+</head>
+<body>
+         <h2>online examination </h2>
+         <form id="exam form">
+         <p>1.what is the full form of HTML?</p>
+          <input type="radio"name="q1"value="a">Hyper Text Markup Language<br>
+          <input type="radio"name="q1"value="b">High Text Machine Language<br>
+          <input type="radio"name="q1"value="c">Hyper Tool Markup Language<br>
+          <p>2.which language is used for web page stylling?</p>
+          <input type="radio"name="q2"value="a">Javascript<br>
+          <input type="radio"name="q2"value="b">CSS<br>
+          <input type="radio"name="q2"value="c">Python<br>
+          <p>3.which language is used to make web page interactive?</p>
+          <input type="radio"name="q3"value="a">Javascript<br>
+          <input type="radio"name="q3"value="b">HTML<br> 
+          <input type="radio"name="q3"value="c">CSS<br>        
+     <input type="button"value="submit exam" onclick="checkResult()">
+     </form>
+     <h3 id="result"></h3>
+     <script>
+           function checkResult(){
+           var score=0;
+           if(document.querySelector('input[name="q1"]:checked')?.value=="a")
+                score++;
+           if(document.querySelector('input[name="q2"]:checked')?.value=="b")
+                score++;
+           if(document.querySelector('input[name="q3"]:checked')?.value=="a")
+                score++;
+                
+         document.getElementById("result").innerHTML="your score is: "+ score+"/3";
+         }
+         </script>
+         </body>
+         <html>
+         
+          
+                 

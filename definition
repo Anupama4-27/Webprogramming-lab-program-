@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>definition list</title>
+</head>
+<body>
+<h1>heading and definitions</h1>
+<dl>
+<dt>Output</dt>
+<dd>data or signals produced,processed,or returned by a computer pgm or system after performing a set of instructions</dd>
+<dt>Input</dt>
+<dd>data or signals sent intoi a computers/m or pgm for processing data.</dd>
+<dt>buffer</p>
+<dd>a temporary storage area in memory used to hold data while it is being transferred b/w two locations or devices.</dd>
+<dt>String</dt>
+<dd>a contiguous sequence of characters,such as letters numbers or symbols treated as a single data unit</dd>
+<dt>bug</dt>
+<dd>an error,flaw,or faultin a s/w pgm that causes it to produce incorrect or unexpected results </dd>
+</dl> 
+</body>
+</html>
